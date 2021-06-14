@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Нүүр хуудас</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name=description content="BAT TV">
+		<script src="main.js" type="module"></script>
+	  </head>
+	<body>
+		<header>
+			<nav class="navbar">
+			<img src="batlogoog1.png" alt="logo" width="5.5%" height="auto">
+			<a href="index.html" class="btn">НҮҮР</a>
+			<a href="content.html" class="btn">НЭВТРҮҮЛЭГ</a>
+			<a href="program.html" class="btn active">ХӨТӨЛБӨР</a>
+			<a href="live.html" class="btn">LIVE</a>
+			<a href="news.html" class="btn">МЭДЭЭ</a>
+			<a href="cowork.html" class="btn">ХАМТДАА</a>
+		  </nav>
+		<script>
+//MOBILE MENU
+function menudrop() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+		// Add active class to the current button (highlight it)
+		var header = document.getElementById("navbar");
+		var btns = header.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+		  var current = document.getElementsByClassName("active");
+		  current[0].className = current[0].className.replace(" active", "");
+		  this.className += " active";
+		  });
+		}
+		</script>
+		</header>
+		<div class="topnav">
+			<main id="NameOfTV">BAT tv</main>
+		  <div id="myLinks">
+			<a href="index.html">НҮҮР </a>
+			<a href="content.html">НЭВТРҮҮЛЭГ</a>
+			<a href="program.html">ХӨТӨЛБӨР</a>
+			<a href="live.html">LIVE</a>
+			<a href="news.html">МЭДЭЭ</a>
+			<a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="menudrop()"> <img id="mob" src="logo1.svg" alt="mobilemenu" width="110" height="40"> </a>
+		</div>
+		
+</script>
+
+	<section>
+		<div class="Nevtruuleg">
+			<div>
+				<h2>Хөтөлбөр</h2>
+				<span style="margin-left: 7%;">2020/10/12- 2020/10/19</span>
+			</div>
+		  </div>
+	</section>	
+  	<div class="tabs">
+		<div class="tab">
+		  <input type="radio" id="tab-1" name="tab-group-1" checked>
+		  <label for="tab-1">Даваа</label>
+		  <div class="content">
+			<table>
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2021 оны 1 сарын 4-ний Даваа гараг</td>
+					</tr>
+					<tr>
+						<td>цаг</td>
+						<td>Контент</td>
+					</tr>
+					<tr>
+						<td>6:00</td>
+						<td>"Оргил цаг" мэдээллийн хөтөлбөрийн 2020 оны тойм</td>
+					</tr>
+					<tr>
+						<td>7:00</td>
+						<td>"Хар хаймран гутал" хүүхэлдэйн кино&nbsp; 33-36-р анги</td>
+					</tr>
+					<tr>
+						<td>8:00</td>
+						<td>Надо тулаан хүүхэлдэйн кино 7-р анги</td>
+					</tr>
+					<tr>
+						<td>8:30</td>
+						<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 19,20-р анги</td>
+					</tr>
+					<tr>
+						<td>9:00</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:00</td>
+						<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:30</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>12:00</td>
+						<td>Хөтөч мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>12:30</td>
+						<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 11-р анги</td>
+					</tr>
+					<tr>
+						<td>14:00</td>
+						<td>"Багтай баатрууд" хүүхэлдэйн кино 31,32-р анги&nbsp;</td>
+					</tr>
+					<tr>
+						<td>14:30</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>16:10</td>
+						<td>"Sky шилтгээн" СОАК 4-р анги</td>
+					</tr>
+					<tr>
+						<td>17:30</td>
+						<td>"Анн охины андройдууд"<br>
+						&nbsp;хүүхдийн цуврал 1-р хэсэг&nbsp;</td>
+					</tr>
+					<tr>
+						<td>17:55</td>
+						<td>Цаг агаарын хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>18:00</td>
+						<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 21,22-р анги</td>
+					</tr>
+					<tr>
+						<td>18:30</td>
+						<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>19:30</td>
+						<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 12-р анги</td>
+					</tr>
+					<tr>
+						<td>20:55</td>
+						<td>Цаг агаарын хөтөлбөр&nbsp;</td>
+					</tr>
+					<tr>
+						<td>21:00</td>
+						<td>Нүүдэл шийдэл</td>
+					</tr>
+					<tr>
+						<td>22:00</td>
+						<td>"Хувь тавилан" МОАК 117-р анги</td>
+					</tr>
+					<tr>
+						<td>23:00</td>
+						<td>"SEAL тусгай баг" АОАК /season 1/ 8-р анги&nbsp;</td>
+					</tr>
+					<tr>
+						<td>0:00</td>
+						<td>Нүүдэл шийдэл</td>
+					</tr>
+					<tr>
+						<td>1:00</td>
+						<td>Үдшийн мэдээ</td>
+					</tr>
+					<tr>
+						<td>1:30</td>
+						<td>Эфир завсарлана</td>
+					</tr>
+				</tbody>
+			</table>
+		  </div>
+		</div>
+		<div class="tab">
+		  <input type="radio" id="tab-2" name="tab-group-1">
+		  <label for="tab-2">Мягмар</label>
+		  <div class="content">
+			<table>   
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2021 оны 1 сарын 05-ны&nbsp; Мягмар гараг</td>
+					</tr>
+					<tr>
+						<td>цаг</td>
+						<td>Контент</td>
+					</tr>
+					<tr>
+						<td>6:00</td>
+						<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>7:00</td>
+						<td>"Хар хаймран гутал" хүүхэлдэйн кино 37-40-р анги</td>
+					</tr>
+					<tr>
+						<td>8:00</td>
+						<td>Надо тулаан хүүхэлдэйн кино 8-р анги</td>
+					</tr>
+					<tr>
+						<td>8:30</td>
+						<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 21,22-р анги</td>
+					</tr>
+					<tr>
+						<td>9:00</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:00</td>
+						<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:30</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>12:00</td>
+						<td>Хөтөч мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>12:30</td>
+						<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 12-р анги</td>
+					</tr>
+					<tr>
+						<td>14:00</td>
+						<td>"Багтай баатрууд" хүүхэлдэйн кино 33,34-р анги&nbsp;</td>
+					</tr>
+					<tr>
+						<td>14:30</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>16:10</td>
+						<td>"Sky шилтгээн" СОАК 5-р анги</td>
+					</tr>
+					<tr>
+						<td>17:30</td>
+						<td>"Анн охины андройдууд"<br>
+						&nbsp;хүүхдийн цуврал&nbsp; 2-р хэсэг&nbsp;</td>
+					</tr>
+					<tr>
+						<td>17:55</td>
+						<td>Цаг агаарын хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>18:00</td>
+						<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 23,24-р анги</td>
+					</tr>
+					<tr>
+						<td>18:30</td>
+						<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>19:30</td>
+						<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 13-р анги</td>
+					</tr>
+					<tr>
+						<td>20:55</td>
+						<td>Цаг агаарын хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>21:00</td>
+						<td>"Яасан гээч..." дугаар - 4</td>
+					</tr>
+					<tr>
+						<td>22:00</td>
+						<td>"Хувь тавилан" МОАК&nbsp; 118-р анги</td>
+					</tr>
+					<tr>
+						<td>23:00</td>
+						<td>"SEAL тусгай баг" АОАК /season 1/ 9-р анги&nbsp;</td>
+					</tr>
+					<tr>
+						<td>0:00</td>
+						<td>"Яасан гээч..." дугаар - 4</td>
+					</tr>
+					<tr>
+						<td>1:00</td>
+						<td>Үдшийн мэдээ</td>
+					</tr>
+					<tr>
+						<td>1:30</td>
+						<td>Эфир завсарлана</td>
+					</tr>
+				</tbody>
+			</table>
+		  </div>
+		</div>
+		<div class="tab">
+		  <input type="radio" id="tab-3" name="tab-group-1">
+		  <label for="tab-3">Лхагва</label>
+		  <div class="content">
+			<table>
+				<tbody>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2021 оны 1 сарын 6-ны&nbsp; Лхагва гараг</td>
+					</tr>
+					<tr>
+						<td>цаг</td>
+						<td>Контент</td>
+					</tr>
+					<tr>
+						<td>6:00</td>
+						<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>7:00</td>
+						<td>"Хар хаймран гутал" хүүхэлдэйн кино&nbsp; 41-44-р анги</td>
+					</tr>
+					<tr>
+						<td>8:00</td>
+						<td>Надо тулаан хүүхэлдэйн кино 9-р анги</td>
+					</tr>
+					<tr>
+						<td>8:30</td>
+						<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 23,24-р анги</td>
+					</tr>
+					<tr>
+						<td>9:00</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:00</td>
+						<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:30</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>12:00</td>
+						<td>Хөтөч мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>12:30</td>
+						<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 13-р анги</td>
+					</tr>
+					<tr>
+						<td>14:00</td>
+						<td>"Багтай баатрууд" хүүхэлдэйн кино 35,36-р анги&nbsp;</td>
+					</tr>
+					<tr>
+						<td>14:30</td>
+						<td>Өнөө өглөө&nbsp;</td>
+					</tr>
+					<tr>
+						<td>16:10</td>
+						<td>"Sky шилтгээн" СОАК 6-р анги</td>
+					</tr>
+					<tr>
+						<td>17:30</td>
+						<td>"Анн охины андройдууд"<br>
+						&nbsp;хүүхдийн цуврал 3-р хэсэг&nbsp;</td>
+					</tr>
+					<tr>
+						<td>17:55</td>
+						<td>Цаг агаарын хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>18:00</td>
+						<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 25,26-р анги</td>
+					</tr>
+					<tr>
+						<td>18:30</td>
+						<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>19:30</td>
+						<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 14-р анги</td>
+					</tr>
+					<tr>
+						<td>20:55</td>
+						<td>Цаг агаарын хөтөлбөр</td>
+					</tr>
+					<tr>
+						<td>21:00</td>
+						<td>"DNA" шоу нэвтрүүлэг /season-2/ дугаар 16</td>
+					</tr>
+					<tr>
+						<td>22:00</td>
+						<td>"Хувь тавилан" МОАК119-р анги</td>
+					</tr>
+					<tr>
+						<td>23:00</td>
+						<td>"SEAL тусгай баг" АОАК /season 1/ 10-р анги&nbsp;</td>
+					</tr>
+					<tr>
+						<td>0:00</td>
+						<td>"DNA" шоу нэвтрүүлэг /season-2/&nbsp; дугаар 16</td>
+					</tr>
+					<tr>
+						<td>1:00</td>
+						<td>Үдшийн мэдээ</td>
+					</tr>
+					<tr>
+						<td>1:30</td>
+						<td>Эфир завсарлана</td>
+					</tr>
+				</tbody>
+			</table>
+		  </div>
+		</div>
+		<div class="tab">
+			<input type="radio" id="tab-4" name="tab-group-1">
+			<label for="tab-4">Пүрэв</label>
+			<div class="content">
+				<table>
+					<tbody>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2021 оны 1 сарын 7-ны Пүрэв гараг</td>
+						</tr>
+						<tr>
+							<td>цаг</td>
+							<td>Контент</td>
+						</tr>
+						<tr>
+							<td>6:00</td>
+							<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>7:00</td>
+							<td>"Хар хаймран гутал" хүүхэлдэйн кино 45-49-р анги</td>
+						</tr>
+						<tr>
+							<td>8:00</td>
+							<td>Надо тулаан хүүхэлдэйн кино 10-р анги</td>
+						</tr>
+						<tr>
+							<td>8:30</td>
+							<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 25,26-р анги</td>
+						</tr>
+						<tr>
+							<td>9:00</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:00</td>
+							<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>12:00</td>
+							<td>Хөтөч мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>12:30</td>
+							<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 14-р анги</td>
+						</tr>
+						<tr>
+							<td>14:00</td>
+							<td>"Багтай баатрууд" хүүхэлдэйн кино 37,38-р анги&nbsp;</td>
+						</tr>
+						<tr>
+							<td>14:30</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>16:10</td>
+							<td>"Sky шилтгээн" СОАК 7-р анги</td>
+						</tr>
+						<tr>
+							<td>17:30</td>
+							<td>"Анн охины андройдууд"<br>
+							&nbsp;хүүхдийн цуврал 4-р хэсэг&nbsp;</td>
+						</tr>
+						<tr>
+							<td>17:55</td>
+							<td>Цаг агаарын хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>18:00</td>
+							<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 27,28-р анги</td>
+						</tr>
+						<tr>
+							<td>18:30</td>
+							<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>19:30</td>
+							<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 15-р анги</td>
+						</tr>
+						<tr>
+							<td>20:55</td>
+							<td>Цаг агаарын хөтөлбөр&nbsp;</td>
+						</tr>
+						<tr>
+							<td>21:00</td>
+							<td>Хар хайрцаг</td>
+						</tr>
+						<tr>
+							<td>22:00</td>
+							<td>"Хувь тавилан" МОАК 120-р анги</td>
+						</tr>
+						<tr>
+							<td>23:00</td>
+							<td>"SEAL тусгай баг" АОАК /season 1/ 11-р анги&nbsp;</td>
+						</tr>
+						<tr>
+							<td>0:00</td>
+							<td>Хар хайрцаг</td>
+						</tr>
+						<tr>
+							<td>1:00</td>
+							<td>Үдшийн мэдээ</td>
+						</tr>
+						<tr>
+							<td>1:30</td>
+							<td>Эфир завсарлана</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		  </div>
+		  <div class="tab">
+			<input type="radio" id="tab-5" name="tab-group-1">
+			<label for="tab-5">Баасан</label>
+			<div class="content">
+				<table>
+					<tbody>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2021 оны 1 сарын 8-ны&nbsp; Баасан гараг</td>
+						</tr>
+						<tr>
+							<td>цаг</td>
+							<td>Контент</td>
+						</tr>
+						<tr>
+							<td>6:00</td>
+							<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>7:00</td>
+							<td>"Хар хаймран гутал" хүүхэлдэйн кино&nbsp; 50-53-р анги</td>
+						</tr>
+						<tr>
+							<td>8:00</td>
+							<td>Надо тулаан хүүхэлдэйн кино 11-р анги</td>
+						</tr>
+						<tr>
+							<td>8:30</td>
+							<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 27,28-р анги</td>
+						</tr>
+						<tr>
+							<td>9:00</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:00</td>
+							<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>12:00</td>
+							<td>Хөтөч мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>12:30</td>
+							<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 15-р анги</td>
+						</tr>
+						<tr>
+							<td>14:00</td>
+							<td>"Багтай баатрууд" хүүхэлдэйн кино 39,40-р анги&nbsp;</td>
+						</tr>
+						<tr>
+							<td>14:30</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>16:10</td>
+							<td>"Sky шилтгээн" СОАК 8-р анги</td>
+						</tr>
+						<tr>
+							<td>17:30</td>
+							<td>"Анн охины андройдууд"<br>
+							&nbsp;хүүхдийн цуврал 5-р хэсэг&nbsp;</td>
+						</tr>
+						<tr>
+							<td>17:55</td>
+							<td>Цаг агаарын хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>18:00</td>
+							<td>"Супер далавчнууд"&nbsp; хүүхэлдэйн кино /season 2/ 29,30-р анги</td>
+						</tr>
+						<tr>
+							<td>18:30</td>
+							<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>19:30</td>
+							<td>"Хоол авч өгдөг хөөрхөн эгч" СОАК 16-р анги</td>
+						</tr>
+						<tr>
+							<td>20:55</td>
+							<td>Цаг агаарын хөтөлбөр&nbsp;</td>
+						</tr>
+						<tr>
+							<td>21:00</td>
+							<td>Эмчийн эсрэг Интернэт шоу нэвтрүүлэг /season-2/ дугаар 15</td>
+						</tr>
+						<tr>
+							<td>22:10</td>
+							<td>"Хувь тавилан" МОАК 121-р анги</td>
+						</tr>
+						<tr>
+							<td>23:10</td>
+							<td>"SEAL тусгай баг" АОАК /season 1/ 12-р анги&nbsp;</td>
+						</tr>
+						<tr>
+							<td>0:00</td>
+							<td>Эмчийн эсрэг Интернэт шоу нэвтрүүлэг /season-2/ дугаар 15</td>
+						</tr>
+						<tr>
+							<td>1:10</td>
+							<td>Үдшийн мэдээ</td>
+						</tr>
+						<tr>
+							<td>1:40</td>
+							<td>Эфир завсарлана</td>
+						</tr>
+					</tbody>
+				</table>
+		
+			</div>
+		  </div>
+		  <div class="tab">
+			<input type="radio" id="tab-6" name="tab-group-1">
+			<label for="tab-6">Бямба</label>
+			<div class="content">
+				<table>
+					<tbody>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2021 оны 1 сарын 9-ний Бямба гараг</td>
+						</tr>
+						<tr>
+							<td>цаг</td>
+							<td>Контент</td>
+						</tr>
+						<tr>
+							<td>6:00</td>
+							<td>"Консуни ба найзууд" хүүхэлдэйн кино&nbsp;</td>
+						</tr>
+						<tr>
+							<td>9:00</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:00</td>
+							<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>12:00</td>
+							<td>"Миний дурласан цэвэрч залуу" СОАК 11-р анги</td>
+						</tr>
+						<tr>
+							<td>13:20</td>
+							<td>"Эмчийн эсрэг Интернэт" шоу нэвтрүүлэг /season-2/ дугаар 15</td>
+						</tr>
+						<tr>
+							<td>14:30</td>
+							<td>"6 настнуудын нууцлаг ертөнц" нэвтрүүлэг /season-2/&nbsp; дугаар - 6</td>
+						</tr>
+						<tr>
+							<td>16:00</td>
+							<td>"Аппрентис Монгол" нэвтрүүлэг дугаар- 4</td>
+						</tr>
+						<tr>
+							<td>18:30</td>
+							<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>19:30</td>
+							<td>"Ардын буйдан" /season-11/ дугаар 5</td>
+						</tr>
+						<tr>
+							<td>21:00</td>
+							<td>"Цар тахал" УСК 1-р анги</td>
+						</tr>
+						<tr>
+							<td>22:50</td>
+							<td>"Яасан гээч..." дугаар - 4</td>
+						</tr>
+						<tr>
+							<td>23:50</td>
+							<td>"Параллель ертөнц" МУСК</td>
+						</tr>
+						<tr>
+							<td>1:30</td>
+							<td>Эфир завсарлана</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		  </div>
+		  <div class="tab">
+			<input type="radio" id="tab-7" name="tab-group-1">
+			<label for="tab-7">Ням</label>
+			<div class="content">
+				<table>
+					<tbody>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2021 оны 1 сарын 10-ны Ням гараг</td>
+						</tr>
+						<tr>
+							<td>цаг</td>
+							<td>Контент</td>
+						</tr>
+						<tr>
+							<td>6:00</td>
+							<td>"Тобот: Галактикийн мөрдөгчид" хүүхэлдэйн кино</td>
+						</tr>
+						<tr>
+							<td>9:00</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:00</td>
+							<td>Шуурхай мэдээ: Коронавируст халдварын нөхцөл байдал&nbsp;</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td>Өнөө өглөө&nbsp;</td>
+						</tr>
+						<tr>
+							<td>12:00</td>
+							<td>"Миний дурласан цэвэрч залуу" СОАК 12-р анги</td>
+						</tr>
+						<tr>
+							<td>13:30</td>
+							<td>Хар хайрцаг</td>
+						</tr>
+						<tr>
+							<td>14:30</td>
+							<td>"DNA" шоу нэвтрүүлэг /season-2/&nbsp; дугаар 16</td>
+						</tr>
+						<tr>
+							<td>15:30</td>
+							<td>"Монгол улсад халдварт саа өвчнийг устгасны 20 жилийн ойд" баримтат кино</td>
+						</tr>
+						<tr>
+							<td>16:00</td>
+							<td>"Ардын буйдан" /season-11/ дугаар 5</td>
+						</tr>
+						<tr>
+							<td>17:30</td>
+							<td>Оргил цаг мэдээллийн хөтөлбөр</td>
+						</tr>
+						<tr>
+							<td>18:30</td>
+							<td>"6 настнуудын нууцлаг ертөнц" нэвтрүүлэг&nbsp; дугаар - 7</td>
+						</tr>
+						<tr>
+							<td>20:00</td>
+							<td>"Аппрентис Монгол" нэвтрүүлэг дугаар - 5</td>
+						</tr>
+						<tr>
+							<td>22:30</td>
+							<td>"Цар тахал" УСК 2-р анги</td>
+						</tr>
+						<tr>
+							<td>0:10</td>
+							<td>"Дэлхийд дурласан сар" МУСК</td>
+						</tr>
+						<tr>
+							<td>1:40</td>
+							<td>"Миний Монголын соёл"</td>
+						</tr>
+						<tr>
+							<td>2:00</td>
+							<td>Эфир завсарлана</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		  </div>
+	  </div>	
+	<footer class="kagebunshino">
+	<div class="inner-container">
+		<div class="first sasuke">
+			<img src="batlogoog1.png" alt="BAT ТВ" class="footer-logo">
+		</div>
+		<div class="second sasuke">
+			<div class="footer-menu-item"><a target="" href="index.html"><div>Нүүр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="content.html"><div>Нэвтрүүлэг</div></a></div>
+			<div class="footer-menu-item"><a target="" href="program.html"><div>Хөтөлбөр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="live.html"><div>LIVE</div></a></div>
+			<div class="footer-menu-item"><a target="" href="news.html"><div>Мэдээ</div></a></div>
+			<div class="footer-menu-item"><a target="" href="cowork.html"><div>Хамтын ажиллагаа</div></a></div>   
+        </div>
+		<div class="third sasuke">
+			<div class="social-icon-con"><a href="https://www.facebook.com/mongoltv/" target="_blank" class="social-icon">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://twitter.com/MONGOLTV" target="_blank" class="social-icon">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.youtube.com/user/MONGOLTVlHD" target="_blank" class="social-icon">
+			<i class="fa fa-youtube" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.instagram.com/mongoltv/" target="_blank" class="social-icon">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="#" target="_blank" class="social-icon">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+			</a></div>
+		</div>
+		<div class="last sasuke">
+			<span class="owner-text">Бүх эрх хуулиар хамгаалагдсан © 2020 “BAT ТВ” ХХК</span> 
+		</div>
+	</div>
+</footer>
+</body>
+</html>

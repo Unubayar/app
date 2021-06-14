@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[BAT team] TV - Хамтын ажиллагаа </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=description content="Хамтын ажиллагаа">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="batlogoog1.png" alt="logo" width="5.5%" height="auto">
+      <a href="index.html" class="btn">НҮҮР</a>
+      <a href="content.html" class="btn">НЭВТРҮҮЛЭГ</a>
+      <a href="program.html" class="btn">ХӨТӨЛБӨР</a>
+      <a href="live.html" class="btn">LIVE</a>
+      <a href="news.html" class="btn">МЭДЭЭ</a>
+      <a href="cowork.html" class="btn active">ХАМТДАА</a>
+    </nav>
+  <script>
+	  //MOBILE MENU
+	  function menudrop() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("navbar");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    });
+  }
+  </script>
+  </header>
+  <div class="topnav">
+    <div id="myLinks">
+	    <main id="NameOfTV">BAT tv</main>
+      <a href="index.html">НҮҮР </a>
+      <a href="content.html">НЭВТРҮҮЛЭГ</a>
+      <a href="program.html">ХӨТӨЛБӨР</a>
+      <a href="live.html">LIVE</a>
+      <a href="news.html">МЭДЭЭ</a>
+      <a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="menudrop()"> <img id="mob" src="logo1.svg" alt="mobilemenu" width="110" height="40"> </a>
+  </div>
+    
+	<div class="Nevtruuleg">
+      <div>
+        <h2>Хамтын ажиллагаа</h2>
+        <p>Ер бусын зүйлс сонирхогч тантай хамтран ажиллахдаа бид таатай байх болно.</p>
+      </div>
+    </div>  
+    <section class="Content-wrap">
+      <div class="NevtruulegCard-right">
+        <div class="TopText">
+          <h3 style="background-image: url('pics/back.webp');margin-top: 0.1vh;color: white;padding:10vh;border-radius: 1vh; text-align: center;">Реклам зар сурталчилгаа</h3>
+          <ul>
+            <li>Зар сурталчилгааны үнийн санал</li>
+            <li>Төлбөртэй нэвтрүүлэг</li>
+            <li>Төлбөртэй зочин</li>
+            <li>Тог тог тог - төрсөн өдрийн үйлчилгээ</li>
+            <li>Зар сурталчилгааны байршил</li>
+          </ul>
+        </div>
+        <img src="pics/cowork1.webp" style="height: 45vh;" alt="p">
+      </div>
+      <div class="NevtruulegCard-left">
+        <div class="TopText">
+          <h3 style="background-image: url('pics/back.webp');margin-top: 0.1vh;color: white;padding:10vh;border-radius: 1vh; text-align: center;">Контент хамтын ажиллагаа</h3>
+          <ul>
+            <li>Шоу нэвтрүүлгүүд</li>
+            <li>Кино</li>
+            <li>Тэмдэглэлт өдөр</li>
+            <li>Арга хэмжээ</li>
+            </ul>
+        </div>
+        <img src="pics/cowork2.webp" style="height: 45vh;" alt="c">
+      </div>
+      <div class="NevtruulegCard-right">
+        <div class="TopText">
+          <h3 style="background-image: url('pics/back.webp');margin-top: 0.1vh;color: white;padding:10vh;border-radius: 1vh; text-align: center;">Техник хамтын ажиллагаа</h3>
+          <ul>
+            <li>Cameras</li>
+            <li>Video Supports & Stabilizers</li>
+            <li>Lights</li>
+            <li>Sound</li>
+            <li>Wireless Video Transmission Kit</li>
+            <li>Monitor</li>
+            </ul>
+        </div>
+        <img src="pics/cowork3.webp" style="height: 45vh;" alt="u">
+      </div>
+	</section>
+<footer class="kagebunshino">
+	<div class="inner-container">
+		<div class="first sasuke">
+			<img src="batlogoog1.png" alt="BAT ТВ" class="footer-logo">
+		</div>
+		<div class="second sasuke">
+			<div class="footer-menu-item"><a target="" href="index.html"><div>Нүүр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="content.html"><div>Нэвтрүүлэг</div></a></div>
+			<div class="footer-menu-item"><a target="" href="program.html"><div>Хөтөлбөр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="live.html"><div>LIVE</div></a></div>
+			<div class="footer-menu-item"><a target="" href="news.html"><div>Мэдээ</div></a></div>
+			<div class="footer-menu-item"><a target="" href="cowork.html"><div>Хамтын ажиллагаа</div></a></div>   
+        </div>
+		<div class="third sasuke">
+			<div class="social-icon-con"><a href="https://www.facebook.com/mongoltv/" target="_blank" class="social-icon">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://twitter.com/MONGOLTV" target="_blank" class="social-icon">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.youtube.com/user/MONGOLTVlHD" target="_blank" class="social-icon">
+			<i class="fa fa-youtube" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.instagram.com/mongoltv/" target="_blank" class="social-icon">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="#" target="_blank" class="social-icon">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+			</a></div>
+		</div>
+		<div class="last sasuke">
+			<span class="owner-text">Бүх эрх хуулиар хамгаалагдсан © 2018 “BAT ТВ” ХХК</span> 
+		</div>
+	</div>
+</footer>
+</body>
+</html>

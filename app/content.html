@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>[BAT team] TV page - Нэвтрүүлэг</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=description content="Нэвтрүүлэг">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+	<main id="NameOfTV">BAT tv</main>
+      <img src="batlogoog1.png" alt="logo" width="5.5%" height="auto">
+      <a href="index.html" class="btn">НҮҮР</a>
+      <a href="content.html" class="btn active">НЭВТРҮҮЛЭГ</a>
+      <a href="program.html" class="btn">ХӨТӨЛБӨР</a>
+      <a href="live.html" class="btn">LIVE</a>
+      <a href="news.html" class="btn">МЭДЭЭ</a>
+      <a href="cowork.html" class="btn">ХАМТДАА</a>
+    </nav>
+  <script>
+	  //MOBILE MENU
+function menudrop() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("navbar");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    });
+  }
+  </script>
+  </header>
+  <div class="topnav">
+    <div id="myLinks">
+      <a href="index.html">НҮҮР </a>
+      <a href="content.html">НЭВТРҮҮЛЭГ</a>
+      <a href="program.html">ХӨТӨЛБӨР</a>
+      <a href="live.html">LIVE</a>
+      <a href="news.html">МЭДЭЭ</a>
+      <a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="menudrop()"> <img id="mob" src="logo1.svg" alt="mobilemenu" width="110" height="40"> </a>
+  </div>
+  
+        <div class="Nevtruuleg">
+          <div>
+            <h2>Нэвтрүүлгүүд</h2>
+            <p>Үзэгчдийн хүртээл болсон шилдэг нэвтрүүлгүүд</p>
+          </div>
+        </div>
+
+        <section class="Content-wrap">
+        <div>
+          <div class="NevtruulegCard-right">
+            <div class="TopText">
+              <h3>5 НАСТНУУДЫН НУУЦЛАГ ЕРТӨНЦ</h3>
+              <p>
+                АНУ, Австрали, Их Британи, Бельги, Дани, Турк, Кипр, Шинэ Зеланд
+                зэрэг улсад 4-6 насны хүүхдүүдийг хамруулан амжилттай хийгдсэн.
+              </p>
+            </div>
+            <img src="pics/ontslohNevtruuleg1.webp" , alt="nevt1" />
+            <div class="BottomText">
+              <p>
+                Тодруулбал үзэгч та бүхнийг нулимстай, инээд хөөртэй өөр өөр
+                жижигхэн ертөнц бүр цаашлаад улс төрийн асуудал, бэрхшээлүүд гээд
+                бүгдийг багтаасан үйл явдлаар дүүрэн нэгэн дэлхий рүү аялуулах
+                болно. 
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="button" value="Бүх дугаарыг үзэх" for="sometext" class="WatchButton"/>
+              </form>
+            </div>
+          </div>
+          <div class="NevtruulegCard-left">
+            <div class="TopText">
+              <h3>ЭМЧ vs ИНТЕРНЕТ</h3>
+              <p>
+                Эмч нар товчлуур дараад л өөрийгөө оношлох талаар юу гэж
+                боддог бол?
+              </p>
+            </div>
+            <img src="pics/ontslohNevtruuleg2.webp" , alt="nevt2" />
+            <div class="BottomText">
+              <p>
+                Та бие чинь өвдөхөөр хамгийн түрүүнд ямар арга хэмжээ авдаг вэ? Та
+                цахим ертөнцөөс мэдээлэл хайдаг уу? Хэдхэн секунтын хайлтаас
+                магадгүй та өөрийгөө яаж эмчилж болох мэдээлэл авч болох ч
+                заримдаа зөв, заримдаа буруу байдаг. Эмч нар энэ талаар юу гэж
+                боддог вэ?
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="button" value="Бүх дугаарыг үзэх" for="sometext"/>
+              </form>
+            </div>
+          </div>
+          <div class="NevtruulegCard-right">
+            <div class="TopText">
+              <h3>ЧИМЭЭГҮЙ НОМЫН САН</h3>
+              <p>
+                Чимээгүй номын сан нэвтрүүлгийн хамгийн чухал дүрэм бол чимээ
+                гаргахгүй байх юм.
+              </p>
+            </div>
+            <img src="pics/ontslohNevtruuleg3.webp" , alt="nevt3" />
+            <div class="BottomText">
+              <p>
+                1 дугаарт 10 төрлийн даалгавар гүйцэтгэх бөгөөд огт чимээ
+                гаргалгүй давж чадвал урамшуулал авна. Оролцогчид бүгд ширээн дээр
+                тараан тависан 6 картыг сугалах бөгөөд гавлын зурагтай картыг
+                сонгосон хүн шийтгүүлнэ. Хэн нь шийтгүүлэхээ мэдсний дараа тэд
+                ямар даалгавар биелүүлэх ёстойгоо мэднэ.
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="text" value="Бүх дугаарыг үзэх" for="sometext"/>
+              </form>
+            </div>
+          </div>
+          <div class="NevtruulegCard-left">
+            <div class="TopText">
+              <h3>DNA</h3>
+            </div>
+            <img src="pics/nevtruuleg4.webp" , alt="nevt4" />
+            <div class="BottomText">
+              <p>
+                Тус шоу нэвтрүүлэг үндсэн нэг оролцогчтой. Оролцогч тус бүр олны
+                танил эрхмүүд байх ба нарийн мэдрэмж, хөгжилтэй байдал, авхаалж
+                самбаагаа дээд цэгт нь хүртэл ажиллуулсанаар мөнгөн шагналын эзэн
+                болох боломжтой. Генийн холбоотой хүмүүсийг царай төрх болоод
+                биеийн ижил төсөөтэй байдлыг ажиглан харж олох нь оролцогч, гэр
+                бүлийнхэн болоод дэлгэцийнхээ өмнө үзэн сууж байгаа үзэгчдэд мөн
+                адил хөгжилтэй байх болно.
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="button" value="Бүх дугаарыг үзэх" for="sometext"/>
+              </form>
+            </div>
+          </div>
+          <div class="NevtruulegCard-right">
+            <div class="TopText">
+              <h3>НАМАЙГ СОНГООЧ</h3>
+              <p>
+                Бие биенээ танихгүй, загварлаг, өөрсдийн гэсэн өнгө аяс, хэв
+                маягтай ганц бие гурван залуу нэг бүсгүйтэй болзохоор цуглана.
+              </p>
+            </div>
+            <img src="pics/nevtruuleg5.webp" , alt="nevt5" />
+            <div class="BottomText">
+              <p>
+                Болзохын тулд тусгай даалгаварыг
+                гүйцэтгэнэ. Тэр даалгавар бол болзох бүсгүйдээ/залуудаа зориулан
+                хувцас худалдан авах юм. Нэвтрүүлгийн төгсгөлд залуу бүсгүй хоёр анх
+                удаа уулзаж бие биетэйгээ танилцаж, цаашид үргэлжлүүлэн болзох
+                эсэхээ шийднэ.
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="button" value="Бүх дугаарыг үзэх" for="sometext"/>
+              </form>
+            </div>
+          </div>
+          <div class="NevtruulegCard-left">
+            <div class="TopText">
+              <h3>ХАР ХАЙРЦАГ</h3>
+              <p>
+                Аливаа тээврийн хэрэгсэлд юу болсныг бид "Хар хайрцаг"-ны
+                бичлэгээс мэдэж болдог.
+              </p>
+            </div>
+            <img src="pics/nevtruuleg6.webp" , alt="nevt6" />
+            <div class="BottomText">
+              <p>
+                Үүнтэй адилаар нийгэм, улс төр, эдийн
+                засаг, цаг үеийн тулгамдсан асуудлууд, олны анхаарал татсан чухал
+                үйл явдлуудын эздийг бид таньдаг ч тэдний байр суурыг тодорхой
+                мэддэггүй ээ. Харин хар хайрцгыг нээж тэдний үзэл санаа, үйл
+                хэргийг тодорхой мэдсэнээр та бидний амьдралд хэрхэн нөлөөлөх бол?
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="text" value="Бүх дугаарыг үзэх" for="sometext"/>
+              </form>
+            </div>
+          </div>
+          <div class="NevtruulegCard-right">
+            <div class="TopText">
+              <h3>НҮҮДЭЛ ШИЙДЭЛ</h3>
+              <p>
+                Уг нэвтрүүлэг нь нийгэм, улс төр, эдийн засаг, хүний эрх, эрүүл
+                мэнд, боловсрол, дэд бүтэц гэх мэт нийгмийн бүхий л салбарын
+                хүрээнд шийдэл, гарц шаардагдсан сэдвүүдийг сонгон авч тухайн
+                асуудалд холбогдох бүх талын байр суурийг урьж оролцуулдаг.
+              </p>
+            </div>
+            <img src="pics/nevtruuleg7.webp" , alt="nevt7" />
+            <div class="BottomText">
+              <p>
+                Учир нь тэдгээр нь үргэлж иргэд болон аль
+                нэг төр, хувийн байгууллага хоорондын хамтын үйл ажиллагаа дээр
+                тогтдог.
+              </p>
+              <h4>Promo үзэх</h4>
+              <form>
+                <input type="button" value="Бүх дугаарыг үзэх" for="sometext"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+   <footer class="kagebunshino">
+	<div class="inner-container">
+		<div class="first sasuke">
+			<img src="batlogoog1.png" alt="BAT ТВ" class="footer-logo">
+		</div>
+		<div class="second sasuke">
+			<div class="footer-menu-item"><a target="" href="index.html"><div>Нүүр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="content.html"><div>Нэвтрүүлэг</div></a></div>
+			<div class="footer-menu-item"><a target="" href="program.html"><div>Хөтөлбөр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="live.html"><div>LIVE</div></a></div>
+			<div class="footer-menu-item"><a target="" href="news.html"><div>Мэдээ</div></a></div>
+			<div class="footer-menu-item"><a target="" href="cowork.html"><div>Хамтын ажиллагаа</div></a></div>   
+        </div>
+		<div class="third sasuke">
+			<div class="social-icon-con"><a href="https://www.facebook.com/mongoltv/" target="_blank" class="social-icon">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://twitter.com/MONGOLTV" target="_blank" class="social-icon">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.youtube.com/user/MONGOLTVlHD" target="_blank" class="social-icon">
+			<i class="fa fa-youtube" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.instagram.com/mongoltv/" target="_blank" class="social-icon">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="#" target="_blank" class="social-icon">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+			</a></div>
+		</div>
+		<div class="last sasuke">
+			<span class="owner-text">Бүх эрх хуулиар хамгаалагдсан © 2018 “BAT ТВ” ХХК</span> 
+		</div>
+	</div>
+</footer>
+  </body>
+</html>

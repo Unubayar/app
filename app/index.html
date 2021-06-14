@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>[BAT team] TV - ШУУД</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=description content="BAT live">
+	<meta http-equiv="Cache-Control" content="max-age=604800"/>
+</head>
+<body>
+<header>
+	<nav class="navbar">
+    <img src="batlogoog1.png" alt="logo" width="5.5%" height="auto">
+    <a href="index.html" class="btn active">НҮҮР</a>
+    <a href="content.html" class="btn">НЭВТРҮҮЛЭГ</a>
+    <a href="program.html" class="btn">ХӨТӨЛБӨР</a>
+    <a href="live.html" class="btn">LIVE</a>
+    <a href="news.html" class="btn">МЭДЭЭ</a>
+    <a href="cowork.html" class="btn">ХАМТДАА</a>
+  </nav>
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+</header>
+<div class="topnav">
+  <main id="NameOfTV">BAT tv</main>
+  <div id="myLinks">
+    <a href="index.html">НҮҮР </a>
+    <a href="content.html">НЭВТРҮҮЛЭГ</a>
+    <a href="program.html">ХӨТӨЛБӨР</a>
+    <a href="live.html">LIVE</a>
+    <a href="news.html">МЭДЭЭ</a>
+    <a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="menudrop()"> <img id="mob" src="logo1.svg" alt="mobilemenu" width="110" height="40"> </a>
+</div>
+
+ <div class="Mother">
+  <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="pics/slide1.webp" alt="slide1" style="width:100%; height: 100%;">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="pics/slide2.webp" alt="slide2" style="width:100%; height: 100%;">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="pics/slide3.gif" alt="slide3" style="width:100%; height: 100%;">
+      </div>
+    </div>   
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+ </div>
+<section class="Content-wrap">
+ <div class="SectionOfMovies">
+  <h2 class="headerArticle">Онцлох мэдээ</h2>
+      <article class="ContainerOfMovie">
+        <img class="UpAndLight" src="pics/ontslohMedee1.webp" alt="11" width="">
+        <h3 class="text1">Усан доорх нууцууд</h3>
+        <p class="text2">Өхөөрдөм бяцхан одой морьдын шинэхэн, аюултай адал явдал эхэллээ. Охидын хайртай Миний бяцхан одой морь хүүхэлдэйн киноны баатрууд шинэ адал явдалд гарлаа. Найрамдлын наадамд оролцоход нь Экюстриад Гүнж Твилайт тусалдаг байна. Гэвч байдал буруугаар эргэнэ.</p>
+      </article>
+	  
+      <article class="ContainerOfMovie">
+        <img class="UpAndLight" src="pics/ontslohMedee2.webp" alt="22">
+        <h3 class="text1">Харь гаригийн хүмүүс байдаг уу?</h3>
+        <p class="text2">Энгийн нэгэн сургуулийн сурагч охин Маринет ихээхэн эв хавгүй ч бүтээлч билээ. Түүний сургуульд нэгэн алдартай модель хөвгүүн шилжиж ирэх бөгөөд тэр хоёрын сайхан сэтгэлийг харсан өвөө шидэт чимэглэл нууцаар өгнө. Тийнхүү тэр хоёр Парис хотын нууцлагдмал хамгаалагчид болох болно.</p>
+      </article>
+  </div>
+  <article class="Ontsloh">
+     <h2 class="headerArticle">Онцлох нэвтрүүлэг</h2>
+     <img class="nevtruuleg" src="pics/ontslohNevtruuleg1.webp" alt="OntslohNevtruuleg">
+     <img class="nevtruuleg" src="pics/ontslohNevtruuleg2.webp" alt="OntslohNevtruuleg">
+     <img class="nevtruuleg" src="pics/ontslohNevtruuleg3.webp" alt="OntslohNevtruuleg">
+  </article>
+  <article class="Ontsloh">
+     <h2 class="headerArticle">Онцлох кино</h2>
+     <img class="pieceOfOntsloh" src="pics/ontsloh1.webp" alt="OntslohKino">
+     <img class="pieceOfOntsloh" src="pics/ontsloh4.webp" alt="OntslohKino">
+     <img class="pieceOfOntsloh" src="pics/ontsloh2.webp" alt="OntslohKino">
+     <img class="pieceOfOntsloh" src="pics/ontsloh3.webp" alt="OntslohKino">
+  </article>
+</section>
+<footer class="kagebunshino">
+	<div class="inner-container">
+		<div class="first sasuke">
+			<img src="batlogoog1.png" alt="BAT ТВ" class="footer-logo">
+		</div>
+		<div class="second sasuke">
+			<div class="footer-menu-item"><a target="" href="index.html"><div>Нүүр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="content.html"><div>Нэвтрүүлэг</div></a></div>
+			<div class="footer-menu-item"><a target="" href="program.html"><div>Хөтөлбөр</div></a></div>
+			<div class="footer-menu-item"><a target="" href="live.html"><div>LIVE</div></a></div>
+			<div class="footer-menu-item"><a target="" href="news.html"><div>Мэдээ</div></a></div>
+			<div class="footer-menu-item"><a target="" href="cowork.html"><div>Хамтын ажиллагаа</div></a></div>   
+        </div>
+		<div class="third sasuke">
+			<div class="social-icon-con"><a href="https://www.facebook.com/mongoltv/" class="social-icon">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://twitter.com/MONGOLTV" class="social-icon">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.youtube.com/user/MONGOLTVlHD" class="social-icon">
+			<i class="fa fa-youtube" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="https://www.instagram.com/mongoltv/" class="social-icon">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a></div>
+			<div class="social-icon-con"><a href="#" class="social-icon">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+			</a></div>
+		</div>
+	</div>
+</footer>
+</body>
+<script>
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000);
+}
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+function menudrop() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display == "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</html>
